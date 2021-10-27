@@ -13,8 +13,8 @@ int main() {
 	int minSum[2] = { arr1[0], arr2[0] };
 	
 	//Size of list in bytes / size of int bytes
-    int arr1Size = sizeof(arr1) / sizeof(int);
-    int arr2Size = sizeof(arr2) / sizeof(int);
+	int arr1Size = sizeof(arr1) / sizeof(int);
+	int arr2Size = sizeof(arr2) / sizeof(int);
 	
 	//Iterating through each list 
 	for(int i=0; i<arr1Size; ++i){
